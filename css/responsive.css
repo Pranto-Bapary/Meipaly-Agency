@@ -1,0 +1,566 @@
+/* ----------------------------------------------
+            Home Page Responsiveness
+------------------------------------------------*/
+@media screen and (max-width: 1200px) {
+  .slide-text h3 {
+    font-size: 70px;
+  }
+
+  .slide-text p {
+    font-size: 18px;
+  }
+
+  .common-button {
+    font-size: 19px;
+    padding: 22px 40px;
+    letter-spacing: 1.5px;
+  }
+
+  .swiper-button-prev,
+  .swiper-container-rtl .swiper-button-next {
+    left: 40px !important;
+  }
+
+  .swiper-button-next,
+  .swiper-container-rtl .swiper-button-prev {
+    right: 40px !important;
+  }
+
+  .swiper-button-next,
+  .swiper-button-prev {
+    padding: 35px;
+  }
+
+  .logo {
+    padding-left: 0px;
+  }
+  .menu-icon {
+    padding-right: 0px;
+  }
+
+  .flipper .card {
+    width: 15.5%;
+  }
+
+  .service-title h2 {
+    font-size: 3rem;
+  }
+
+  .image1 {
+    position: absolute;
+    top: 0;
+    right: 13%;
+  }
+  .image2::after {
+    left: 20px;
+    border: 10px solid #e62b4a;
+  }
+
+  .agency-text .heading {
+    font-size: 2.7rem;
+    line-height: 60px;
+  }
+
+  .subscriber-form input[type="email"] {
+    height: 72.5px;
+    width: 350px;
+  }
+
+  .ads-desc {
+    padding: 45.5px;
+  }
+
+  .ads-desc .heading{
+    font-size: 2.7rem;
+  }
+
+  .ads-desc .heading-desc {
+    margin-top: 10px;
+    padding-right: 0;
+  }
+}
+
+@media screen and (max-width: 1140px) {
+  .service-title h2 {
+    font-size: 2.7rem;
+  }
+
+  #subscribe .heading {
+    font-size: 2.5rem;
+  }
+
+  .ads .col-md-6 .ads-img img {
+    width: 100%;
+    display: block;
+    margin-left: 0;
+    margin-right: 0;
+    text-align: center;
+    height: 450px;
+}
+
+
+}
+
+@media screen and (max-width: 991px) {
+  #header-area .links {
+    display: none !important;
+  }
+
+  .slide-text h3 {
+    font-size: 58px;
+  }
+
+  .slide-text p {
+    font-size: 17px;
+  }
+
+  .flipper .card {
+    width: 22.5%;
+  }
+
+  .service-title h2 {
+    font-size: 2.4rem;
+  }
+
+  .rebutton {
+    margin-top: 30px;
+  }
+
+  .image1 {
+    position: absolute;
+    top: 0;
+    right: 134px;
+  }
+
+  .image1 img,
+  .image2 img {
+    width: 100%;
+  }
+
+  .image2::after {
+    left: 20px;
+    border: 10px solid #e62b4a;
+    width: 341px;
+  }
+
+  .agency-text .heading {
+    font-size: 2.2rem;
+    line-height: 48px;
+  }
+
+  .agency-text .heading,
+  .agency-text .sub-heading,
+  .agency-text .heading-desc,
+  .agency-text .rebutton {
+    padding-left: 0px;
+  }
+
+  #team {
+    padding: 120px 0;
+  }
+
+  #team .container-fluid {
+    margin: 0;
+  }
+  .heading {
+    font-size: 2.7rem;
+  }
+
+  .heading-desc {
+    font-size: 16px;
+  }
+
+  #sponsors .container-fluid {
+    padding: 0 10%;
+  }
+
+  #project-numbers h2 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+  }
+
+  #project-numbers p {
+    font-size: 1rem;
+    margin-bottom: 10px;
+  }
+
+  .client-image img {
+    width: 60%;
+  }
+
+  .inner-desc {
+    margin-top: -330px;
+    padding-top: 50px;
+    padding-left: 45px;
+  }
+
+  #clients-info .heading {
+    font-size: 2rem;
+    letter-spacing: 2px;
+    line-height: 44px;
+  }
+
+  #clients-info .heading-desc {
+    color: #818181;
+    font-size: 16px;
+    margin-top: 15px;
+    padding-right: 104px;
+  }
+
+  .subscriber-form .common-button {
+    margin-top: 15px;
+  }
+
+  .big-heading {
+    padding: 0px 191px;
+  }
+
+  .big-heading h2 {
+    font-size: 2.2rem;
+  }
+
+  .subscriber-form input[type="email"] {
+    width: 100%;
+  }
+
+  .re-heading {
+    font-size: 3.7rem;
+  }
+
+  .ads .col-md-6{
+    flex: 0 0 100%!important;
+    max-width: 100% !important;
+  }
+
+  .ads .col-md-6 .ads-img img {
+    width: 100%;
+    height: auto;
+}
+}
+
+@media screen and (max-width: 768px) {
+  .logo-img {
+    width: 88%;
+  }
+
+  .slide-text h3 {
+    font-size: 45px;
+  }
+
+  .slide-text p {
+    font-size: 18px;
+  }
+
+  .flipper .card {
+    width: 70%;
+  }
+
+  .service-title h2 {
+    font-size: 2rem;
+    line-height: 50px;
+  }
+
+  .common-button {
+    font-size: 17px;
+    padding: 20px 35px;
+  }
+
+  .swiper-button-next.swiper-button-white,
+  .swiper-button-prev.swiper-button-white {
+    display: none;
+  }
+
+  .rebutton {
+    margin-top: 20px;
+  }
+
+  #project-numbers {
+    padding: 70px 0 150px 0;
+  }
+
+  #project-numbers h2 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+  }
+
+  #project-numbers p {
+    font-size: 1rem;
+    margin-bottom: 80px;
+  }
+
+  .client-image img {
+    width: 100%;
+  }
+
+  #clients-info .inner-desc {
+    margin-top: 0px;
+    margin-left: 0px;
+    padding-left: 0;
+  }
+
+  .inner-desc .heading {
+    padding-right: 0;
+  }
+
+  #clients-info .heading-desc {
+    padding-right: 0;
+  }
+
+  #team {
+    padding-top: 350px;
+  }
+
+  .heading {
+    font-size: 2.2rem;
+    line-height: 55px;
+  }
+
+  .heading-desc {
+    padding-right: 0;
+  }
+
+  #project-contact .common-button {
+    margin-top: 30px;
+  }
+
+  .agency-text {
+    text-align: center;
+  }
+  .agency-text .heading,
+  .agency-text .sub-heading,
+  .agency-text .heading-desc,
+  .agency-text .rebutton {
+    padding-left: 0px;
+    margin-top: 10px;
+  }
+
+  .big-heading {
+    padding: 0;
+  }
+
+  .image1,
+  .image2 {
+    position: static;
+    top: 0;
+    right: 0;
+    right: 0;
+    margin: 35px 0;
+  }
+
+  .image2::after {
+    left: 0;
+    border: none;
+    width: 0;
+  }
+
+  .video-content a {
+    height: 45px;
+    width: 45px;
+    font-size: inherit;
+    line-height: 45px;
+    margin-bottom: 5px;
+  }
+
+  #subscribe .heading {
+    font-size: 1.8rem;
+    line-height: 20px;
+    margin-bottom: 20px;
+    margin-top: 13px;
+  }
+
+  .subscriber-form {
+    text-align: left;
+  }
+
+  #topBtn {
+    right: 15px;
+  }
+
+  .re-heading {
+    font-size: 2.9rem;
+  }
+
+  #know-us .heading {
+    padding-bottom: 60px;
+  }
+
+  .know-img1 img,
+  .know-img2 img {
+    position: static;
+    width: 100%;
+    margin-bottom: 30px;
+  }
+
+  .know-img2 img{
+    margin-bottom: 0;
+  }
+
+  .know-img2::after {
+    position: static;
+    border: none;
+  }
+
+  .testiBox {
+    padding: 0;
+  }
+  .about-team{
+    padding-top: 75px!important;
+    padding-bottom: 75px!important;
+  }
+
+  .ads-desc {
+    padding: 101px 0px;
+    text-align: center;
+  }
+  .why-choose-us {
+    padding: 20px 0;
+    margin: auto;
+  }
+
+  .chooseItem{
+    display: block;
+  }
+  .chooseItem li{
+    max-width: 100%;
+  }
+  .chooseItem li a {
+    padding: 25px 0px;
+  }
+
+  .why-choose-us .col-md-12 .col-md-7 .heading-desc {
+    padding-right: 0;
+    margin-top: 30px;
+  }
+
+  .chooseList {
+    margin-top: 20px;
+  }
+
+  #service-box .row .col-md-4 {
+    margin-right: 13.5px;
+  }
+
+  .service-box-single h3{
+    font-size: 1.4rem;
+  }
+
+  .service-box-single p{
+    font-size: 1rem;
+  }
+
+  .client-fix {
+    padding-bottom: 140px;
+    position: static;
+    margin-bottom: 250px !important;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .flipper .card {
+    width: 100%;
+    height: 200px;
+    margin-right: 0;
+  }
+
+  #clients-info {
+    position: relative;
+  }
+
+  .card-heading {
+    font-size: 24px;
+    line-height: 33px;
+  }
+
+  .footer-logo .heading-desc {
+    padding-right: 0;
+  }
+
+  .header-contact {
+    padding-left: 0px;
+    margin-top: 30px;
+  }
+  .social {
+    margin-top: 30px;
+  }
+
+  .big-heading h2 {
+    font-size: 1.9rem;
+  }
+
+  .subs-row {
+    margin-top: 40px;
+  }
+
+  #testimonial .icon {
+    height: 90px;
+    width: 90px;
+    line-height: 90px;
+    margin-bottom: 15px;
+  }
+
+  .re-subHeading {
+    font-size: 1.1rem;
+  }
+
+  .monial-single .heading-desc {
+    padding-top: 50px;
+}
+}
+
+@media screen and (max-width: 500px) {
+  .big-heading p {
+    padding: 0;
+    font-size: 1.2rem;
+  }
+
+  .re-heading {
+    font-size: 2.4rem;
+  }
+
+  .client-fix {
+    margin-bottom: 350px !important;
+}
+}
+
+@media screen and (max-width: 400px) {
+  .slide-text h3 {
+    font-size: 39px;
+  }
+
+  #team {
+    padding-top: 400px;
+  }
+
+  #latest-blog .heading {
+    font-size: 2rem;
+  }
+
+  .card-heading {
+    font-size: 16px;
+    line-height: 33px;
+  }
+
+  .re-subHeading {
+    font-size: 1rem;
+  }
+
+  .chooseList li{
+   font-size: 16px;
+  }
+
+  .pagination-container li a {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+  }
+
+  .copyright p {
+    font-size: 13px;
+}
+}
+
+@media screen and (max-width:350px){
+  .service-box-single h3{
+    font-size: 1.2rem;
+  }
+}
